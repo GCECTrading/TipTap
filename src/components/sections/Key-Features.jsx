@@ -1,4 +1,4 @@
-import CardFeature from "../ui/card-feature";
+import CardFeature from "../ui/Card-Feature";
 import MultiCurrency from "../../assets/icons/Multi-currency.png";
 import InstantPayouts from "../../assets/icons/Light.png";
 import SecurePayments from "../../assets/icons/Secure.png";
