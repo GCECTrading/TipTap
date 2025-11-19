@@ -1,3 +1,5 @@
+import Logo from '../../assets/images/Original_Logo.svg'
+
 export default function Footer() {
      const footerLinks = {
           product: [
@@ -27,7 +29,7 @@ export default function Footer() {
                          {/* Logo */}
                          <div className="flex items-center justify-center md:justify-start">
                               <div className="w-20 h-20 flex items-center justify-center">
-                                   <img src="/src/assets/images/Original_Logo.svg" alt="Tip App Logo" className="w-full h-full" />
+                                   <img src={Logo} alt="Tip App Logo" className="w-full h-full" />
                               </div>
                          </div>
 

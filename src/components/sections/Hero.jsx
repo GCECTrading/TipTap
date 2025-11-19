@@ -1,5 +1,7 @@
 'use client'
 
+import HeroImg from '../../assets/images/Hero-img.png'
+
 export default function Hero() {
      return (
           <section className="min-h-[85vh] flex items-center">
@@ -57,7 +59,7 @@ export default function Hero() {
 
                                    <div className="relative">
                                         <img
-                                             src="/src/assets/images/Hero-img.png"
+                                             src={HeroImg}
                                              alt="Tip App mobile app mockup"
                                              width={198}
                                              height={428}
