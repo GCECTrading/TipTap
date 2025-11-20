@@ -1,6 +1,6 @@
 "use client";
 
-import HeroImage from "../assets/images/Hero-img.png";
+import HeroImage from "../../assets/images/Hero-img.png";
 export default function Hero() {
   return (
     <section className="min-h-[85vh] flex items-center">

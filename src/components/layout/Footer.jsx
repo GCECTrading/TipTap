@@ -1,4 +1,4 @@
-import Logo from "../assets/images/Original_Logo.svg";
+import Logo from "../../assets/images/Original_Logo.svg";
 export default function Footer() {
   const footerLinks = {
     product: [

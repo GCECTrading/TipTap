@@ -1,9 +1,9 @@
 import CardFeature from "../ui/Card-Feature";
-import MultiCurrency from "../assets/icons/Multi-currency.png";
-import Light from "../assets/icons/Light.png";
-import Secure from "../assets/icons/Secure.png";
-import Track from "../assets/icons/Track.png";
-import GlobalSupport from "../assets/icons/Global-support.png";
+import MultiCurrency from "../../assets/icons/Multi-currency.png";
+import Light from "../../assets/icons/Light.png";
+import Secure from "../../assets/icons/Secure.png";
+import Track from "../../assets/icons/Track.png";
+import GlobalSupport from "../../assets/icons/Global-support.png";
 
 const features = [
   {
