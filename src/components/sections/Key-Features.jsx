@@ -1,25 +1,30 @@
 import CardFeature from "../ui/Card-Feature";
+import MultiCurrency from "../assets/icons/Multi-currency.png";
+import Light from "../assets/icons/Light.png";
+import Secure from "../assets/icons/Secure.png";
+import Track from "../assets/icons/Track.png";
+import GlobalSupport from "../assets/icons/Global-support.png";
 
 const features = [
   {
     title: "Multi-currency support",
-    icon: "src/assets/icons/Multi-currency.png",
+    icon: MultiCurrency,
   },
   {
     title: "Instant payouts",
-    icon: "src/assets/icons/Light.png",
+    icon: Light,
   },
   {
     title: "Secure payments via Stripe",
-    icon: "src/assets/icons/Secure.png",
+    icon: Secure,
   },
   {
     title: "Track all your earnings in one dashboard",
-    icon: "src/assets/icons/Track.png",
+    icon: Track,
   },
   {
     title: "Support from anywhere",
-    icon: "src/assets/icons/Global-support.png",
+    icon: GlobalSupport,
   },
 ];
 
