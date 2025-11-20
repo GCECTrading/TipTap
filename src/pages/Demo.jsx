@@ -1,7 +1,5 @@
 'use client'
 
-import DemoVideo from '../assets/videos/demo-video.mp4'
-
 export default function Demo() {
      return (
           <main className="min-h-[90vh] pt-20">
@@ -23,7 +21,7 @@ export default function Demo() {
                               className="w-full h-full"
                               poster="/video-demo-poster.jpg"
                          >
-                              <source src={DemoVideo} type="video/mp4" />
+                              <source src="src/assets/videos/demo-video.mp4" type="video/mp4" />
                               Your browser does not support the video tag.
                          </video>
                     </div>

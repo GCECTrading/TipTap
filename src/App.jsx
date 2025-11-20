@@ -1,19 +1,20 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import Header from "./components/layout/Header.jsx";
-import Hero from "./components/sections/Hero.jsx";
-import HowItWorks from "./components/sections/How-It-Works.jsx";
-import KeyFeatures from "./components/sections/Key-Features.jsx";
-import CompetitorTable from "./components/sections/Competitor-Table.jsx";
-import UserStories from "./components/sections/User-Story.jsx";
-import Reviews from "./components/sections/Reviews.jsx";
-import CTAButtons from "./components/sections/CTA-Buttons.jsx";
-import Footer from "./components/layout/Footer.jsx";
-import About from "./pages/About.jsx";
-import Contact from "./pages/Contact.jsx";
-import Demo from "./pages/Demo.jsx";
-import Terms from "./pages/Terms.jsx";
-import Help from "./pages/Help.jsx";
+import { useState } from 'react'
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/layout/Header.jsx'
+import Hero from './components/sections/Hero.jsx'
+import HowItWorks from './components/sections/How-It-Works.jsx'
+import KeyFeatures from './components/sections/Key-Features.jsx'
+import CompetitorTable from './components/sections/Competitor-Table.jsx'
+import UserStories from './components/sections/User-Story.jsx'
+import Reviews from './components/sections/Reviews.jsx'
+import CTAButtons from './components/sections/CTA-Buttons.jsx'
+import Footer from './components/layout/Footer.jsx'
+import About from '/src/pages/About.jsx'
+import Contact from '/src/pages/Contact.jsx'
+import Demo from '/src/pages/Demo.jsx'
+import Terms from '/src/pages/Terms.jsx'
+import Help from '/src/pages/Help.jsx'
 
 function HomePage() {
   return (
@@ -28,10 +29,11 @@ function HomePage() {
         <CTAButtons />
       </main>
     </>
-  );
+  )
 }
 
 export default function App() {
+
   return (
     <div className="min-h-screen text-white">
       <Header />
@@ -45,5 +47,5 @@ export default function App() {
       </Routes>
       <Footer />
     </div>
-  );
+  )
 }

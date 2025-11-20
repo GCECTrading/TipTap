@@ -1,11 +1,9 @@
-import TipsBalanceImage from '../../assets/images/Tips_Balance.png'
-
 export default function ServiceProvider() {
      const serviceProvider = {
           title: 'Receive instant payments with no hassle.',
           description:
-               "After hard work, everyone deserves a reward. As a service provider, I want to receive tips quickly and easily, without anyone having insight into it. That's where TipTapp comes in. Everything happens so simply and effortlessly. I generate a QR code that tippers scan, and the tip appears on my screen in an instant. That's exactly what I need.",
-          image: TipsBalanceImage,
+               'After hard work, everyone deserves a reward. As a service provider, I want to receive tips quickly and easily, without anyone having insight into it. That’s where TipTapp comes in. Everything happens so simply and effortlessly. I generate a QR code that tippers scan, and the tip appears on my screen in an instant. That’s exactly what I need.',
+          image: 'src/assets/images/Tips_Balance.png',
           bgColor: 'from-blue-600 to-blue-800'
      }
 
