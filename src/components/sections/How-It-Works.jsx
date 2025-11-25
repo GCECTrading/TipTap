@@ -7,6 +7,9 @@ import HIWSP3MyWithdrawal from "../../assets/images/HIW-SP3-My_Withdrawal.png";
 import HIWTP1ScanQR from "../../assets/images/HIW-TP1-Scan_QR.png";
 import HIWTP2Payment from "../../assets/images/HIW-TP2-Payment.png";
 import HIWTP3Review from "../../assets/images/HIW-TP3-Review.png";
+import QRCode from "../../assets/icons/qr-code.svg";
+import Star from "../../assets/icons/star.svg";
+import HandCoins from "../../assets/icons/hand-coins.svg";
 
 export default function HowItWorks() {
   const [activeStep, setActiveStep] = useState(null);
@@ -18,13 +21,13 @@ export default function HowItWorks() {
   ];
 
   const tipperSteps = [
-    { number: 4, label: "Scans code", icon: "src/assets/icons/qr-code.svg" },
+    { number: 4, label: "Scans code", icon: QRCode },
     {
       number: 5,
       label: "Sends payment",
-      icon: "src/assets/icons/hand-coins.svg",
+      icon: HandCoins,
     },
-    { number: 6, label: "Leaves review", icon: "src/assets/icons/star.svg" },
+    { number: 6, label: "Leaves review", icon: Star },
   ];
 
   // placeholder images that change based on clicked circle
